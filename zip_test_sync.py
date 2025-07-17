@@ -6,6 +6,7 @@ On file modification:
 - Logs all actions to a debug log file.
 - Minimal version of the main sync script for testing ZIP backup logic.
 """
+
 import os
 import time
 import boto3
@@ -19,7 +20,7 @@ from watchdog.events import FileSystemEventHandler
 bucket_name = '24030142023'
 watch_folder = 'C:/Users/Asus/OneDrive/Desktop/SICSR/cloud-backup-tool'
 log_path = os.path.join(watch_folder, 'zip_debug.log')
-zip_output_folder = os.path.join(watch_folder, 'zips/')
+zip_output_folder = os.path.join(watch_folder, 'C:/Users/Asus/OneDrive/Desktop/SICSR/cloud-backup-tool/zips')
 s3 = boto3.client('s3')
 
 # --- Logging ---
@@ -39,6 +40,11 @@ class ZipUploadHandler(FileSystemEventHandler):
         filepath = event.src_path
         filename = os.path.basename(filepath)
 
+        # 🛑 Ignore the log file and already-created ZIPs to avoid loops
+        if filename == os.path.basename(log_path) or filename.endswith('.zip'):
+            return
+
+        # Skip unsupported file types
         if not filename.lower().endswith(('.pdf', '.jpg', '.jpeg', '.mpeg', '.doc', '.txt')):
             logging.info(f"Skipped unsupported file: {filename}")
             return
@@ -70,8 +76,9 @@ class ZipUploadHandler(FileSystemEventHandler):
         try:
             # Upload ZIP
             with open(zip_path, 'rb') as f:
-                s3.put_object(Bucket=bucket_name, Key=f'live-sync/backups/{zip_name}', Body=f)
-            logging.info(f"Uploaded ZIP → live-sync/backups/{zip_name}")
+                s3_key_zip = f'live-sync/backups/{zip_name}'
+                s3.put_object(Bucket=bucket_name, Key=s3_key_zip, Body=f)
+            logging.info(f"Uploaded ZIP → {s3_key_zip}")
         except Exception as e:
             logging.error(f"ZIP upload failed: {e}")
 

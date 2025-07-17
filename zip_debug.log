@@ -1,2 +1,90 @@
 2025-07-11 16:21:31,702 - INFO - Started minimal ZIP sync test.
 2025-07-11 16:23:57,944 - INFO - Stopped by user.
+2025-07-17 11:24:46,336 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:46,344 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:46,345 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:48,060 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:49,799 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:49,801 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:49,803 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:51,970 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:24:51,971 - INFO - Skipped unsupported file: zip_test_sync.py
+2025-07-17 11:25:13,892 - INFO - Started minimal ZIP sync test.
+2025-07-17 11:29:41,128 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:41,129 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:41,130 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:41,130 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,310 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,311 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,312 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,312 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,313 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:43,313 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,805 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,805 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,808 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,808 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,809 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:44,809 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,021 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,022 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,024 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,024 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,024 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:48,024 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,925 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,925 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,933 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,933 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,933 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:51,933 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:53,983 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:53,992 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:53,992 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:53,993 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:53,994 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,292 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,292 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,292 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,292 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,293 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:29:57,293 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,192 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,193 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,193 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,194 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,194 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:30:03,194 - INFO - Skipped unsupported file: folder.py
+2025-07-17 11:32:42,710 - INFO - Skipped unsupported file: upload_zip_files.py
+2025-07-17 11:32:42,712 - INFO - Skipped unsupported file: upload_zip_files.py
+2025-07-17 11:32:42,715 - INFO - Skipped unsupported file: upload_zip_files.py
+2025-07-17 11:32:42,716 - INFO - Skipped unsupported file: upload_zip_files.py
+2025-07-17 11:32:42,717 - INFO - Skipped unsupported file: upload_zip_files.py
+2025-07-17 11:40:18,768 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 11:40:18,768 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 11:40:18,769 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 11:40:18,769 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 11:40:18,772 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 11:40:18,773 - INFO - Skipped unsupported file: check_zip_version.py
+2025-07-17 12:03:28,616 - INFO - Skipped unsupported file: automaticbackup.py
+2025-07-17 12:03:28,622 - INFO - Skipped unsupported file: auto_sync_on_change.py
+2025-07-17 12:03:28,623 - INFO - Skipped unsupported file: bucket.py
+2025-07-17 12:03:28,618 - INFO - Skipped unsupported file: automaticbackup.py
+2025-07-17 12:03:28,625 - INFO - Skipped unsupported file: auto_sync_on_change.py
+2025-07-17 12:03:28,626 - INFO - Skipped unsupported file: bucket.py
+2025-07-17 12:03:28,647 - INFO - Skipped unsupported file: bucketchecker.py
+2025-07-17 12:03:28,648 - INFO - Skipped unsupported file: bucketchecker.py
+2025-07-17 12:03:28,686 - INFO - Skipped unsupported file: crud.py
+2025-07-17 12:03:28,686 - INFO - Skipped unsupported file: crud.py
+2025-07-17 12:03:28,700 - INFO - Skipped unsupported file: enable_versioning.py
+2025-07-17 12:03:28,700 - INFO - Skipped unsupported file: enable_versioning.py
+2025-07-17 12:03:28,700 - INFO - Skipped unsupported file: file.py
+2025-07-17 12:03:28,700 - INFO - Skipped unsupported file: file.py
+2025-07-17 12:03:28,717 - INFO - Skipped unsupported file: supportfile.py
+2025-07-17 12:03:28,717 - INFO - Skipped unsupported file: supportfile.py
+2025-07-17 12:03:38,307 - INFO - Uploaded RAW file \u2192 live-sync/text.txt
+2025-07-17 12:03:38,311 - INFO - Uploaded RAW file \u2192 live-sync/text.txt
+2025-07-17 12:03:38,318 - INFO - Created ZIP: C:/Users/Asus/OneDrive/Desktop/SICSR/cloud-backup-tool/zips\text_2025-07-17_12-03-38.zip
+2025-07-17 12:03:38,326 - INFO - Created ZIP: C:/Users/Asus/OneDrive/Desktop/SICSR/cloud-backup-tool\zips/text_2025-07-17_12-03-38.zip
+2025-07-17 12:03:39,796 - INFO - Uploaded ZIP \u2192 live-sync/backups/text_2025-07-17_12-03-38.zip
+2025-07-17 12:03:39,812 - ERROR - ZIP upload failed: An error occurred (IncompleteBody) when calling the PutObject operation: You did not provide the number of bytes specified by the Content-Length HTTP header
